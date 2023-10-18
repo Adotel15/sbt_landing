@@ -88,3 +88,21 @@ body {
     border-radius: 20px;
     background-color: white;
 }
+
+@media (max-width: 768px) {
+    #main_content {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    #main_content .form_container,
+    #main_content .info_container {
+        width: 90%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
